@@ -1,7 +1,7 @@
 .introducao-bg {
-  color: white;
-  background-color: #000000;
-  box-shadow: inset 0 -120px #ffffff;
+  color: var(--cor-0);
+  background-color: var(--cor-12);
+  box-shadow: inset 0 -120px var(--cor-0);
 }
 
 .introducao {
@@ -16,8 +16,6 @@
   margin-right: auto;
 }
 
-.introducao h1,
-p,
 a {
   grid-column: 1;
 }
@@ -33,7 +31,7 @@ a {
 
 .introducao p {
   margin-bottom: 20px;
-  color: #b2b2b2;
+  color: var(--cor-5);
 }
 
 .introducao img {
@@ -51,9 +49,9 @@ a {
   }
 }
 
-@media (max-width: 800px) {
+@media (width < 800px) {
   .introducao-bg {
-    background-color: #111111;
+    background-color: var(--cor-11);
   }
 
   .introducao {
