@@ -54,6 +54,9 @@
 }
 
 @media (max-width: 950px) {
+  .tecnologia-imagem {
+    display: none;
+  }
   .tecnologia-bg {
     box-shadow: initial;
   }
@@ -69,6 +72,9 @@
 }
 
 @media (max-width: 600px) {
+  .tecnologia-imagem {
+    display: none;
+  }
   .tecnologia-vantagens {
     flex-direction: column;
   }
